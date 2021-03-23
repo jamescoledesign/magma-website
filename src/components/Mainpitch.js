@@ -22,9 +22,9 @@ const Mainpitch = class extends React.Component {
                       <figure className="article-image level-item level-right">
                         <div>
                           <a href={link}>
-                            <Zoom>
-                              <img src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} alt={title} />
-                            </Zoom>
+                          <Zoom>
+                          <img src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} alt={title} />
+                        </Zoom>
                           </a>
                         </div>
                       </figure>
