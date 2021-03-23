@@ -23,7 +23,7 @@ mainpitch:
   display: true
   image: /img/magma-converged-core2.jpg
   link: http://www.google.com
-  title: Converged Services. Distributed Deployment. Cloud-Native Packet Core for Mobile Connectivity
+  title: Converged Services. Distributed Deployment. Distributed Deployment.
 features:
   display: true
   rows:
