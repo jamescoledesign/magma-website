@@ -113,7 +113,7 @@ export const pageQuery = graphql`
         }                
         mainpitch {
           display
-          title         
+          title
           description {
             text
           }
