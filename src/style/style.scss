@@ -178,6 +178,7 @@ body {
 }
 
 .img-rt {
+  align-self: flex-start;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -186,6 +187,7 @@ body {
 }
 
 .img-lt {
+  align-self: flex-start;
   width: 100%;
   height: auto;
   object-fit: cover;
