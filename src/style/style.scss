@@ -197,3 +197,35 @@ body {
   font-weight: bold;
   color: #5602a4;
 }
+
+.magma-logo-bg {
+  margin: 0 auto;
+  background-color: #5602a4;
+  height: 200px;
+  text-align: center;
+  position: inherit;
+  z-index: -1;
+}
+
+.magma-icon {
+  opacity: 15%;
+  width: 50%;
+  object-fit: cover;
+}
+
+.develop {
+  padding-top: 40px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.dev-with-magma {
+
+  text-align: center;
+  color: white;
+}
+
+.contribute-button {
+  margin-top: 30px;
+}
