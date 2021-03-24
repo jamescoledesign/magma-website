@@ -12,9 +12,13 @@ const DevelopWithMagma = class extends React.Component {
       <React.Fragment>
         
         <div className="magma-logo-bg">
-        <div className="develop"><h2 className="dev-with-magma">Develop with Magma</h2></div>
-        <div className="contribute-button"><a className="button is-outlined">Start Contributing</a></div>
-        {/*<img className="magma-icon" src={MagmaLogo} />*/}
+          <div className="develop">
+            <h2 className="dev-with-magma">Develop with Magma</h2>
+            <div className="contribute-button"><a className="button is-outlined">Start Contributing</a></div>
+          </div>
+
+          <img className="magma-icon" src={MagmaLogo} />
+          
         </div>
 
       </React.Fragment>
