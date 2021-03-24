@@ -64,22 +64,14 @@ body {
 
 .two-col {
   margin: 0 auto;
-  margin-top: 60px;
   width: 80%;
   max-width: 960px;
 }
 
-@media (max-width: 720px) {
-  .two-col {
-    
-  }
-}
-
 .container-one {
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
-  word-wrap: break-word;
-  height: 300px;
 }
 
 @media (max-width: 720px) {
@@ -90,9 +82,9 @@ body {
 }
 
 .container-two {
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
-  height: 300px;
   margin-bottom: 60px;
 }
 
@@ -106,7 +98,6 @@ body {
 .section-text-left {
   width: 50%;
   padding-right: 30px;
-  margin-bottom: 60px;
   order: 1;
 }
 
