@@ -15,7 +15,7 @@ const ImageLeft = class extends React.Component {
 
             <div className="container-two">
             <div className="img-container-lt">
-                <img className="img-rt" src={ImageOne} />
+                <img className="img-lt" src={ImageOne} />
               </div>
               <div className="section-text-right">
                 <h5 className="section-tag">ABOUT THE COMMUNITY</h5>
