@@ -1,5 +1,5 @@
 import React from "react";
-import ImageOne from "../../static/img/paperwork.png";
+import ImageOne from "../../static/img/tower.png";
 
 const ImageLeft = class extends React.Component {
   constructor(props) {
