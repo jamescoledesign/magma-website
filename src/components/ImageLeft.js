@@ -10,13 +10,12 @@ const ImageLeft = class extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="section-one">
-          <div className="two-col">
-
-            <div className="container-two">
+        <div className="two-col">
+          <div className="container-two">
             <div className="img-container-lt">
                 <img className="img-lt" src={ImageOne} />
               </div>
+              
               <div className="section-text-right">
                 <h5 className="section-tag">ABOUT THE COMMUNITY</h5>
                 <h2>An Active Community  For The Network Core</h2>
@@ -25,8 +24,6 @@ const ImageLeft = class extends React.Component {
                 <a href="https://github.com/magma/magma" className="text-cta">Join The Community</a>
 
               </div>
-
-            </div>
 
           </div>  
         </div>

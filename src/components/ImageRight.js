@@ -10,9 +10,7 @@ const ImageRight = class extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="section-one">
           <div className="two-col">
-
             <div className="container-one">
               <div className="section-text-left">
                 <h5 className="section-tag">ABOUT MAGMA</h5>
@@ -25,7 +23,6 @@ const ImageRight = class extends React.Component {
             </div>
 
           </div>  
-        </div>
       </React.Fragment>
     );
   }
