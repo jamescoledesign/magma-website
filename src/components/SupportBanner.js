@@ -28,7 +28,7 @@ const SupportBanner = class extends React.Component {
               </div>
               <div className="column is-one-quarter vert-centered horiz-centered">
                 <a href="//www.openairinterface.org" className="support-link">
-                  <img src={OAILogo} className="support-logo" alt="OAI logo" />
+                  <img src={OAILogo} className="support-logo oai-logo" alt="OAI logo" />
                 </a>
               </div>
               <div className="column is-one-quarter vert-centered horiz-centered">
@@ -38,10 +38,7 @@ const SupportBanner = class extends React.Component {
               </div>
               <div className="column is-one-quarter vert-centered horiz-centered">
                 <a href="//telecominfraproject.com" className="support-link">
-                  <img
-                    src={TIPLogo}
-                    className="support-logo vert"
-                    alt="TIP logo"
+                  <img src={TIPLogo} className="support-logo tip-logo" alt="TIP logo"
                   />
                 </a>
               </div>
