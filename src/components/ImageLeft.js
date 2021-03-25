@@ -1,5 +1,5 @@
 import React from "react";
-import ImageOne from "../../static/img/tower.png";
+import Tower from "../../static/img/tower.png";
 
 const ImageLeft = class extends React.Component {
   constructor(props) {
@@ -13,11 +13,11 @@ const ImageLeft = class extends React.Component {
         <div className="two-col">
           <div className="container-two">
             <div className="img-container-lt">
-                <img className="img-lt" src={ImageOne} />
+                <img className="img-lt" src={Tower} />
               </div>
               <div className="section-text-right">
                 <h5 className="section-tag">ABOUT THE COMMUNITY</h5>
-                <h2>An Active Community  For The Network Core</h2>
+                <h2>An Active Community For The Network Core</h2>
                 <p>Magma is produced by an open-source software community who is user-driven  with a welcoming, respectful culture. We invite you to try out Magma, provide your feedback and get involved in contributing to the code.</p>
 
                 <a href="https://github.com/magma/magma" className="text-cta">Join The Community</a>

@@ -18,9 +18,6 @@ const Mainpitch = class extends React.Component {
           <ImageRight />
           <ImageLeft />
         </section>
-        <section>
-          <DevelopWithMagma />
-        </section>
       </React.Fragment>
     );
   } 

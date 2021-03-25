@@ -1,5 +1,5 @@
 import React from "react";
-import ImageOne from "../../static/img/paperwork.png";
+import Paperwork from "../../static/img/paperwork.png";
 
 const ImageRight = class extends React.Component {
   constructor(props) {
@@ -18,7 +18,7 @@ const ImageRight = class extends React.Component {
                 <p className="section-paragraph">Magma connects 100 to 1,000,000 servers using the same fully distributed network architecture. Designed to be access network (cellular or wifi) and 3GPP release agnostic, it can flexibly support a radio access network with minimal development and deployment effort.</p>
               </div>
               <div className="img-container-rt">
-                <img className="img-rt" src={ImageOne} />
+                <img className="img-rt" src={Paperwork} />
               </div>
             </div>
 
