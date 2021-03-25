@@ -16,7 +16,7 @@ const Contact = class extends React.Component {
       <React.Fragment>
           <div className="two-col contact-section">
             <div className="container-one">
-              <div className="section-text-left">
+              <div className="contact-text">
                 <h2>Contact</h2>
                 <p className="section-paragraph contact-info">Let us know if you would like to receive more information about Magma or if you have questions on how to contribute to the community. 
                 </p>
