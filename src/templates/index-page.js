@@ -15,6 +15,7 @@ import DevelopWithMagma from "../components/DevelopWithMagma"
 import UserStories from '../components/UserStories'
 import Features from '../components/Features'
 import NewsletterSubscribe from '../components/NewsletterSubscribe'
+import GetStarted from '../components/GetStarted'
 
 export const IndexPageTemplate = ({
   seo,
@@ -70,6 +71,7 @@ const IndexPage = ({ data }) => {
       <UserStories />
       <SupportBanner />
       <NewsletterSubscribe />
+      <GetStarted />
     </Layout>
   )
 }
