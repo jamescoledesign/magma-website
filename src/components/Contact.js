@@ -3,6 +3,7 @@ import Paperwork from "../../static/img/paperwork.png";
 import Facebook from "../../static/img/facebook-icon.svg";
 import LinkedIn from "../../static/img/linkedin-icon.svg";
 import Twitter from "../../static/img/twitter-icon.svg";
+import Form from "../components/Form"
 
 const Contact = class extends React.Component {
   constructor(props) {
@@ -17,17 +18,17 @@ const Contact = class extends React.Component {
             <div className="container-one">
               <div className="section-text-left">
                 <h2>Contact</h2>
-                <p className="section-paragraph contact-info">It is important to realize that by their very definition, prototypes will represent some compromise from the final design.
+                <p className="section-paragraph contact-info">Let us know if you would like to receive more information about Magma or if you have questions on how to contribute to the community. 
                 </p>
                 <a href="mailto: community@openinfra.dev" className="text-cta">Send us an email</a>
                 <div className="social-icons">
                   <a href="mailto: community@openinfra.dev"><img className="social-icon" src={Facebook} /></a>
-                  <a href="mailto: community@openinfra.dev"><img className="social-icon" src={LinkedIn} /></a>
-                  <a href="mailto: community@openinfra.dev"><img className="social-icon" src={Twitter} /></a>
+                  <a href="https://www.linkedin.com/company/magmacore/"><img className="social-icon" src={LinkedIn} /></a>
+                  <a href="https://twitter.com/MagmaCommunity"><img className="social-icon" src={Twitter} /></a>
                 </div>
               </div>
-              <div className="img-container-rt">
-                <img className="img-rt" src={Paperwork} />
+              <div className="form-container">
+                <Form />
               </div>
             </div>
 
