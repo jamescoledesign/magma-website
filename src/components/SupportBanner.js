@@ -1,7 +1,7 @@
 import React from "react";
 import content from "../content/footer-nav.json";
 
-import OSFLogo from "../../static/img/OpenInfrastructureFoundation-logo-RGB-horiz2.svg";
+import OIFLogo from "../../static/img/OpenInfrastructureFoundation-logo-RGB-horiz2.svg";
 import TIPLogo from "../../static/img/TIP_vertical_rgb_color.png";
 import OAILogo from "../../static/img/oai_final_logo.png";
 import LFLogo from "../../static/img/lf_logo.svg";
@@ -33,7 +33,7 @@ const SupportBanner = class extends React.Component {
               </div>
               <div className="column is-one-quarter vert-centered horiz-centered">
                 <a href="//openinfra.dev" className="support-link">
-                  <img src={OSFLogo} className="support-logo" alt="Open Infrastructure Foundation logo" />
+                  <img src={OIFLogo} className="support-logo oif-logo" alt="Open Infrastructure Foundation logo" />
                 </a>
               </div>
               <div className="column is-one-quarter vert-centered horiz-centered">

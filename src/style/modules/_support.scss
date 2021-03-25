@@ -1,4 +1,6 @@
 .support-content {
+  margin: 0 auto;
+  width: 90%;
   display: flex;
   padding: 4rem 0;
   flex-direction: column;
@@ -33,5 +35,9 @@
 }
 
 .lf-logo {
-  width: 140px;
+  width: 100px;
+}
+
+.oif-logo {
+  width: 220px;
 }
