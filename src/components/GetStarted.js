@@ -13,7 +13,7 @@ const GetStarted = class extends React.Component {
         <div className="cta-banner">
           <div className="develop">
             <h2 className="dev-with-magma">Ready to get started?</h2>
-            <div className="contribute-button"><a className="button is-outlined">Download Magma</a></div>
+            <div className="contribute-button"><a href="https://github.com/magma/magma" className="button is-outlined">Download Magma</a></div>
           </div>
         </div>
 
