@@ -162,7 +162,7 @@
       left: 0;
       width: 100%;
       top: calc(100% + 10px);
-      padding: 20px 10px;
+      // padding: 20px 10px;
       background: $white;
       z-index: -1;
       border-radius: 0;
@@ -179,7 +179,6 @@
     }
   }
 }
-
 
 // STATIC NAV
 
@@ -213,11 +212,11 @@
 .subnav {
   // display: inline-block;
   overflow: hidden;
-  z-index: 40;
 }
 
 @media (max-width: 767px) {
   .subnav {
+    margin: 0 auto;
     width: 100%;
   }
 }
@@ -254,6 +253,14 @@
   z-index: 2;
 }
 
+@media (max-width: 767px) {
+  .subnav-content{
+    width: 100%;
+    margin-left: unset;
+    position: unset;
+  }  
+}
+
 .arrow-up {
   margin: 0 73px;
   background-color: #A100FF;
@@ -262,6 +269,12 @@
   transform: rotate(45deg);
   position: absolute;
   z-index: -1;
+}
+
+@media (max-width: 767px) {
+  .arrow-up  {
+    margin-left: 47.5%;
+  }
 }
 
 .arrow-up-news {
@@ -274,6 +287,12 @@
   z-index: -1;
 }
 
+@media (max-width: 767px) {
+  .arrow-up-news  {
+    margin-left: 47.5%;
+  }
+}
+
 .subnav-content-news {
   display: none;
   position: absolute;
@@ -281,6 +300,14 @@
   background-color: #A100FF; 
   margin-left: 5px;
   z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .subnav-content-news {
+    width: 100%;
+    margin-left: unset;
+    position: unset;
+  }  
 }
 
 .subnav-content a {
@@ -317,8 +344,14 @@
 
 .subnav-item {
   position: relative;
-  margin: 12px 0 12px 0;
+  padding: 12px 0 12px 0;
   z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .subnav-item  {
+    padding: 20px 0 20px 0;
+  }
 }
 
 .nav-logo {
