@@ -26,6 +26,7 @@ const Navbar = class extends React.Component {
           <div className="subnav">
             <button className="subnavbtn">Community<i className="fa fa-caret-down"></i></button>
             <div className="subnav-content">
+              <div className="arrow-up"></div>
               <div className="subnav-item"><a href="#company">Governance</a></div>
               <div className="subnav-item"><a href="#team">Magma Dev Conf 2021</a></div>
             </div>
@@ -41,7 +42,8 @@ const Navbar = class extends React.Component {
 
           <div class="subnav">
             <button class="subnavbtn">News<i class="fa fa-caret-down"></i></button>
-            <div class="subnav-content">
+            <div class="subnav-content-news">
+            <div className="arrow-up-news"></div>
             <div className="subnav-item"><a href="#team">Blog</a></div>
             </div>
           </div> 
