@@ -11,9 +11,29 @@ const Navbar = class extends React.Component {
     }
   }
 
+  toggleHamburger = () => {
+    // toggle the active boolean in the state
+    this.setState(
+      {
+        active: !this.state.active,
+      },
+      // after state has been updated,
+      () => {
+        // set the class in state for the navbar accordingly
+        this.state.active
+          ? this.setState({
+            navBarActiveClass: 'is-active',
+          })
+          : this.setState({
+            navBarActiveClass: '',
+          })
+      }
+    )
+  }
+
   render() {
     return(
-      <nav className="static-nav">
+      <nav className="nav static-nav">
         <div className="navbar-primary">
         
         <div className="nav-logo">
@@ -21,6 +41,24 @@ const Navbar = class extends React.Component {
             <img src={NavLogo} alt="Magma Logo" />
           </Link>
         </div>
+
+        <div
+              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              data-target="navMenu"
+              role="button"
+              tabIndex="0"
+              onClick={() => this.toggleHamburger()}
+              onKeyDown={() => this.toggleHamburger()}
+            >
+              <span />
+              <span />
+              <span />
+            </div>
+
+            <div
+              id="navMenu"
+              className={`nav-content ${this.state.navBarActiveClass}`}
+            >
       
         <div className="subnav">
           <Link to="/#about"><button className="subnavbtn">About</button></Link>
@@ -55,7 +93,7 @@ const Navbar = class extends React.Component {
           </div>
         </div> 
 
-      </div>
+      </div></div>
     </nav>
     )
   }    
