@@ -20,7 +20,7 @@ const ImageLeft = class extends React.Component {
                 <h2>An Active Community For The Network Core</h2>
                 <p>Magma is produced by an open-source software community who is user-driven  with a welcoming, respectful culture. We invite you to try out Magma, provide your feedback and get involved in contributing to the code.</p>
 
-                <a href="https://magmacore.org/community" className="text-cta">Join The Community</a>
+                <a href="/community" className="text-cta">Join The Community</a>
 
               </div>
 

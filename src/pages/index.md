@@ -11,7 +11,7 @@ header:
     subTitle: See the release notes
     title: v1.1 Release available now
   buttons:
-    - link: "https://magmacore.org/community"
+    - link: "/community"
       text: Join The Community
   display: true
   subTitle:
