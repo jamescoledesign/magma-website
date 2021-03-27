@@ -14,7 +14,7 @@ const UserStories = class extends React.Component {
     return (
       <React.Fragment>
         <section className="user-stories">
-        <h5 className="section-tag">USER STORIES</h5>
+        <h5 id="user-stories" className="section-tag">USER STORIES</h5>
           <div className="three-col">
 
             <div className="user-story-lt-rt">

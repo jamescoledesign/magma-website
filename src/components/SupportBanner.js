@@ -16,7 +16,7 @@ const SupportBanner = class extends React.Component {
     return (
       <React.Fragment>
         <section>
-          <div className="support-content">
+          <div id="supporters" className="support-content">
             <h4 className="support-content-title">
               {content.productName} is an open source project supported by
             </h4>

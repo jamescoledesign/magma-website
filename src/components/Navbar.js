@@ -21,35 +21,35 @@ const Navbar = class extends React.Component {
         </div>
       
         <div className="subnav">
-          <button className="subnavbtn">About</button>
+          <Link to="/#about"><button className="subnavbtn">About</button></Link>
         </div> 
 
         <div className="subnav">
-          <button className="subnavbtn">User Stories</button>
+        <Link to="/#user-stories"><button className="subnavbtn">User Stories</button></Link>
         </div> 
 
         <div className="subnav">
-          <button className="subnavbtn">Community<i className="fa fa-caret-down"></i></button>
+        <a href="/community"><button className="subnavbtn">Community<i className="fa fa-caret-down"></i></button></a>
           <div className="subnav-content">
             <div className="arrow-up"></div>
-            <div className="subnav-item"><a href="#company">Governance</a></div>
-              <div className="subnav-item"><a href="#team">Magma Dev Conf 2021</a></div>
+             <div className="subnav-item"><a href="/community#governance">Governance</a></div>
+              <div className="subnav-item"><a href="/community/magma-dev-conference-recap-2021/">Magma Dev Conf 2021</a></div>
             </div>
         </div> 
 
         <div className="subnav">
-          <button className="subnavbtn">Docs</button>
+        <Link to="https://docs.magmacore.org/docs/basics/introduction.html"><button className="subnavbtn">Docs</button></Link>
         </div> 
             
         <div className="subnav">
-          <button className="subnavbtn">Supporters</button>
+        <Link to="/#supporters"><button className="subnavbtn">Supporters</button></Link>
         </div> 
 
         <div class="subnav">
-          <button class="subnavbtn">News<i class="fa fa-caret-down"></i></button>
+        <Link to="/blog"><button class="subnavbtn">News<i class="fa fa-caret-down"></i></button></Link>
           <div class="subnav-content-news">
             <div className="arrow-up-news"></div>
-            <div className="subnav-item"><a href="#team">Blog</a></div>
+            <div className="subnav-item"><a href="/blog">Blog</a></div>
           </div>
         </div> 
 
