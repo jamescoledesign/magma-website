@@ -1,6 +1,8 @@
 import React from 'react'
 import NavLogo from  '../../static/img/magma-logo.svg'
 import { Link } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import Menu from "../content/navbar.json"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -38,7 +40,7 @@ const Navbar = class extends React.Component {
         </div> 
 
         <div className="subnav">
-        <Link to="https://docs.magmacore.org/docs/basics/introduction.html"><button className="subnavbtn">Docs</button></Link>
+        <OutboundLink href="https://docs.magmacore.org/docs/basics/introduction.html" rel="noopener noreferrer"><button className="subnavbtn">Docs</button></OutboundLink>
         </div> 
             
         <div className="subnav">
