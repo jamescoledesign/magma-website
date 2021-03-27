@@ -1,5 +1,5 @@
 import React from "react";
-import Paperwork from "../../static/img/paperwork.png";
+import Paperwork from "../../static/img/paperwork.jpg";
 
 const ImageRight = class extends React.Component {
   constructor(props) {

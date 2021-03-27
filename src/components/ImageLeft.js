@@ -1,5 +1,5 @@
 import React from "react";
-import Tower from "../../static/img/tower.png";
+import Tower from "../../static/img/tower.jpg";
 
 const ImageLeft = class extends React.Component {
   constructor(props) {
