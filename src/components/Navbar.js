@@ -1,97 +1,55 @@
 import React from 'react'
+import NavLogo from  '../../static/img/magma-logo.svg'
 import { Link } from 'gatsby'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
-import Menu from "../content/navbar.json"
 
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      active: false,
-      navBarActiveClass: '',
     }
   }
 
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-            navBarActiveClass: 'is-active',
-          })
-          : this.setState({
-            navBarActiveClass: '',
-          })
-      }
-    )
-  }
-
   render() {
-    return (
-      <nav
-        className="nav navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="nav-inner">
-            {Menu.logo &&
-              <div className="nav-brand">
-                <Link to="/" title="Magma Website Home">
-                  <img src={Menu.logo} alt="Magma Logo" />
-                </Link>
-                {/* Hamburger menu */}
-              </div>
-            }
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              role="button"
-              tabIndex="0"
-              onClick={() => this.toggleHamburger()}
-              onKeyDown={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
+    return(
+      <nav className="static-nav">
+      <div className="navbar-primary">
+        <div className="nav-logo"><img src={NavLogo} alt="Magma Logo" /></div>
+     
+          <div className="subnav">
+            <button className="subnavbtn">About</button>
+          </div> 
+
+          <div className="subnav">
+            <button className="subnavbtn">User Stories</button>
+          </div> 
+
+          <div className="subnav">
+            <button className="subnavbtn">Community<i className="fa fa-caret-down"></i></button>
+            <div className="subnav-content">
+              <div className="subnav-item"><a href="#company">Governance</a></div>
+              <div className="subnav-item"><a href="#team">Magma Dev Conf 2021</a></div>
             </div>
-            <div
-              id="navMenu"
-              className={`nav-content ${this.state.navBarActiveClass}`}
-            >
-              <ul className="nav-menu nobullet navbar-start has-text-centered">
-                {Menu.nav.map((data, index) => {                  
-                  return (
-                    <React.Fragment key={index}>
-                      <li>
-                        {data.link.match(/^https?:\/\//) ?
-                          data.link.match(/^https?:\/\/docs\./) ?
-                            <OutboundLink href={data.link} rel="noopener noreferrer">{data.text}</OutboundLink>
-                            :
-                            <OutboundLink href={data.link} target="_blank" rel="noopener noreferrer">{data.text}</OutboundLink>
-                          :
-                          <Link to={data.link}>
-                            {data.text}
-                          </Link>
-                        }
-                      </li>
-                      {index < Menu.nav.length - 1 ? <li className="separator"> | </li> : null}
-                    </React.Fragment>
-                  )
-                })}
-              </ul>
+          </div> 
+
+          <div className="subnav">
+            <button className="subnavbtn">Docs</button>
+          </div> 
+          
+          <div className="subnav">
+            <button className="subnavbtn">Supporters</button>
+          </div> 
+
+          <div class="subnav">
+            <button class="subnavbtn">News<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+            <div className="subnav-item"><a href="#team">Blog</a></div>
             </div>
-          </div>
-        </div>
-      </nav>
+          </div> 
+
+      </div>
+    </nav>
     )
-  }
+  }    
 }
 
 export default Navbar
