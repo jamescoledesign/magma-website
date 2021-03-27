@@ -211,9 +211,15 @@
 }
 
 .subnav {
-  display: inline-block;
+  // display: inline-block;
   overflow: hidden;
-  
+  z-index: 40;
+}
+
+@media (max-width: 767px) {
+  .subnav {
+    width: 100%;
+  }
 }
 
 .subnav .subnavbtn {
@@ -226,6 +232,12 @@
   font-family: inherit;
   margin: 0 auto;
 
+}
+
+@media (max-width: 767px) {
+  .subnav .subnavbtn {
+    color: black;
+  }
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {

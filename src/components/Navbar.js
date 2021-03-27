@@ -4,10 +4,13 @@ import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Menu from "../content/navbar.json"
 
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      active: false,
+      navBarActiveClass: '',
     }
   }
 
@@ -33,7 +36,7 @@ const Navbar = class extends React.Component {
 
   render() {
     return(
-      <nav className="nav static-nav">
+      <nav className="nav static-nav" role="navigation" aria-label="main-navigation">
         <div className="navbar-primary">
         
         <div className="nav-logo">
@@ -42,8 +45,7 @@ const Navbar = class extends React.Component {
           </Link>
         </div>
 
-        <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+        <div className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               role="button"
               tabIndex="0"

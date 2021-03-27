@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Menu from "../content/navbar.json"
 
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
