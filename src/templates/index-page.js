@@ -73,7 +73,6 @@ const IndexPage = ({ data }) => {
       <SupportBanner />
       <NewsletterSubscribe />
       <Contact />
-      <GetStarted />
     </Layout>
   )
 }
