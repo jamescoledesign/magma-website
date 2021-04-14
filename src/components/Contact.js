@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+
 import Paperwork from "../../static/img/paperwork.png";
 import Facebook from "../../static/img/facebook-icon.svg";
 import LinkedIn from "../../static/img/linkedin-icon.svg";
