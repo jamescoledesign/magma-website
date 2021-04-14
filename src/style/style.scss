@@ -391,6 +391,15 @@ body {
   height: 140px;
 }
 
+.message:not {
+  margin-bottom: 15px;
+}
+
+.message:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+
 .form-button {
   width: 100%;
 }
@@ -398,4 +407,16 @@ body {
 .has-addons-centered {
   margin: 0 auto;
   max-width: 90%;
+}
+
+.checkbox {
+  margin-bottom: 15px;
+}
+
+.checkbox-message {
+  margin: -10px 0 0 8px;
+}
+
+input {
+  margin: 0 auto;
 }

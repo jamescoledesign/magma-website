@@ -10,3 +10,4 @@ yarn-error.log
 # Developer environment
 .idea/
 .env*
+.env.development

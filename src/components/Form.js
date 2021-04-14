@@ -64,13 +64,13 @@ const Form = () => {
         <input type="hidden" name="form-name" value="contact" />
         <input type="text" className="form-field" name="name" placeholder="Name" value={name} onChange={e => setName(e.target.value)} />
         <input type="text" className="form-field" name="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
-        <div className="checkbox">
-          <input type="checkbox" name="subscribe" value={subscribe} onClick={() => setSubscribe(!subscribe)} /><span>Subscribe to Newsletter</span>
-        </div>
         <textarea className="form-field message" name="message" placeholder="Message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
         {successMessage && <span className="result-message success">{successMessage}</span>}
         {errorMessage && <span className="result-message error">{errorMessage}</span>}
         {errorMessageSubscribe && <span className="result-message error">{errorMessageSubscribe}</span>}
+        <div className="checkbox">
+          <input type="checkbox" name="subscribe" value={subscribe} onClick={() => setSubscribe(!subscribe)} /><span className="checkbox-message">Subscribe to Newsletter</span>
+        </div>
         <button className="button is-primary form-button" type="submit">SUBMIT</button>
       </form>
       <ReCAPTCHA sitekey={process.env.GATSBY_PUBLIC_RECAPTCHA_SITE_KEY} size="invisible" ref={recaptchaRef} />
