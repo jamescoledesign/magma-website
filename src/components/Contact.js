@@ -29,9 +29,9 @@ const Contact = class extends React.Component {
                   <a href="https://twitter.com/MagmaCommunity"><img className="social-icon" src={Twitter} /></a>
                 </div>
               </div>
-              <div className="form-container">
+               {/*<div className="form-container">
                 <Form />
-              </div>
+              </div>*/}
             </div>
 
           </div>  
