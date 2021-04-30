@@ -31,7 +31,7 @@ const UserStories = class extends React.Component {
                 </div>
                 <h3 className="user-story-title">Deploying Magma to lower network costs</h3>
                 <p>BRCK deploys low cost connectivity in both urban and rural markets in Kenya.</p>
-                <a href="https://brck.com/2019/02/moja-lte-extending-affordable-access-further/" className="text-cta">Learn More</a>
+                <a href="/users/brck" className="text-cta">Learn More</a>
             </div>
 
             <div className="user-story-lt-rt">
