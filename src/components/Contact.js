@@ -34,7 +34,7 @@ const Contact = class extends React.Component {
                 <Form />
               </div>*/}
             </div>
-<FormEmbed />
+            <FormEmbed />
           </div>  
       </React.Fragment>
     );
