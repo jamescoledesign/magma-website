@@ -31,6 +31,6 @@ BRCK is deploying low cost connectivity both urban and rural markets. Their team
 
 ## WiConnect
 
-WiConnect Wireless delivers fiber, cable, and wireless-based internet in the southwest region of Wisconsin covering seven counties with more than 232 wireless sites. Prior to deploying Magma, LTE was sporadically used in areas that needed greater tree penetration. Their team’s goal was to increase network redundancy by adding a Magma Access Gateway at each tower site. After migrating all of the existing sites to Magma, the team is actively installing new sites using Magma EPC Access Gateway for each site.
+WiConnect Wireless delivers fiber, cable, and wireless-based internet in the southwest region of Wisconsin covering seven counties with over 232 wireless sites. Prior to deploying Magma, LTE was sporadically used in areas that needed greater tree penetration. Their team’s goal was to increase network redundancy by adding a Magma Access Gateway at each tower site. After migrating all of the existing sites to Magma, the team is actively installing new sites using Magma EPC Access Gateway for each site.
 
 **[Learn more about how WiConnect runs Magma in production](https://youtu.be/VybSCeTPf88)**
